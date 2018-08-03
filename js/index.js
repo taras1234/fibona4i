@@ -9,10 +9,10 @@
 const n = parseInt(prompt('Enter n number of fibonacci :'))
 
 function fib(n) {
-  var a = 1,
+  let a = 1,
     b = 1;
-  for (var i = 3; i <= n; i++) {
-    var c = a + b;
+  for (let i = 3; i <= n; i++) {
+    let c = a + b;
     a = b;
     b = c;
   }
